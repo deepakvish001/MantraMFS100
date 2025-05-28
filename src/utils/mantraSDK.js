@@ -36,6 +36,7 @@ export const getMFS100Info = async () => {
     const data = await response.json();
     return { httpStaus: true, data };
   } catch (error) {
+    console.error('Error:', error);
     return { httpStaus: false, err: error.message };
   }
 };
