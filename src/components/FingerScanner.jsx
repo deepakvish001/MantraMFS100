@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { captureFinger } from '../utils/mantraSDK';
-import scanningGif from '../assets/scanning.gif';
+import scanningGif from '../../scanning.gif';
 import './FingerScanner.css';
 
 const FingerScanner = () => {
