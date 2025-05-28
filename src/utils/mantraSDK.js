@@ -1,4 +1,4 @@
-const uri = "http://localhost:8003/mfs100/";
+const uri = "https://localhost:8003/mfs100/";
 
 export const captureFinger = async (quality, timeout) => {
   const MFS100Request = {
